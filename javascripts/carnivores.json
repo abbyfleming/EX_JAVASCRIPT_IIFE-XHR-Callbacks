@@ -1,5 +1,6 @@
-{ "carnivores":[
-   "Giganotosaurus", 
-   "Acrocanthosaurus", 
-   "Spinosaurus"
+{ 
+	"carnivores":[
+	   "Giganotosaurus", 
+	   "Acrocanthosaurus", 
+	   "Spinosaurus"
 ]}

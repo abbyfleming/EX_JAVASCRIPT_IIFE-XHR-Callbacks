@@ -1,5 +1,6 @@
-{ "herbivores":[
-   "Diplodocus", 
-   "Maiasaura", 
-   "Protoceratops"
+{ 
+	"herbivores": [
+	   "Diplodocus", 
+	   "Maiasaura", 
+	   "Protoceratops"
 ]}

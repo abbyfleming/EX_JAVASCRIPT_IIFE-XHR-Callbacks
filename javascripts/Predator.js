@@ -11,6 +11,8 @@ var Predator = (function () {
 
       carnivoreLoader.addEventListener("load", function() {
         var carnivoreData = JSON.parse(this.responseText).carnivores;
+        carnivores.push(carnivoreData);
+
         callbackToInvoke(carnivoreData);
       });
 
@@ -23,11 +25,11 @@ var Predator = (function () {
 
       herbivoreLoader.addEventListener("load", function() {
       var herbivoreData = JSON.parse(this.responseText).herbivores;
+
+      herbivores.push(herbivoreData);
       callbackToInvoke(herbivoreData);
       });
-    } /* Could keep adding, just add comma! */
+    } 
   }
 
 })();
-
-/* Ending () immediately calls the function */
